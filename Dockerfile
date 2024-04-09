@@ -1,5 +1,5 @@
-FROM alpine:3.19.0
-# MAINTAINER Diego Cornejo <diegof.cornejo@gmail.com>
+FROM alpine:3.19.1
+
 LABEL maintainer="Diego Cornejo <diegof.cornejo@gmail.com>" 
 
 RUN apk update && apk upgrade
